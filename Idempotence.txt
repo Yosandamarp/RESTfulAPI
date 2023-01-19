@@ -1,0 +1,18 @@
+Idempotent itu sangat penting,karena saat membuat RESTful API,kita akan 
+melakukan komunikasi antara client dan server via network,sehingga error 
+bisa terjadi.
+Belum lagi,banyak framework atau library client yang bisa secara otomatis
+melakukan request ulang ketika terjadi error pada network.
+Saat implementasi RESTful API sesuai kaidah HTTP Method yang standar,
+secara otomatis sebenarnya kita sudah melakukan proses idempotent
+Pada POST implementasi idempotent tidak diwajibkan
+Method GET tidak pernah mengubah data di server.Method GET hanya digunakan
+untuk mengambil data yang ada di server.
+mengirim request GEt berkali-kali ke server tidak akan mengubah data ataupun
+di server.
+Method PUT & PATCH digunakan untuk mengubah data yang sudah ada
+Oleh karena itu PUT & PATCH bisa dibilang idempotent,karena hasil 
+akhirnya tetap sama. 
+Method DELETE digunakan untuk menghapus data di server
+Ketika kita mengirim perintah DELETE berkali-kali di server,response
+nya mungkin akan berbeda.
