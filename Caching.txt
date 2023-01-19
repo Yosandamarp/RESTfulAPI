@@ -1,0 +1,11 @@
+Cache adalah data bersifat sementara yang disimpan pada sistem penyimpanan.
+Cache biasa digunakan untuk menurunkan julah data transfer antara client dan 
+server sehingga proses komunikasi lebih cepat.
+HTTP Header ETag digunakan untuk menambahkan informasi terhadap resource
+yang dikembalikan di server
+ETag berisikan versi dari resource yang diminta
+Setelah client menyimpan data cache,setiap client mengirim request ke server,client 
+akan menambahkan HTTP Header If-Not-Match
+HTTP Header If-Not-Match berisikan data ETag yang sebelumnya didapat
+Jika data tidak berubah,maka server akan mengembalikan HTTP Response Code
+304:Not Modified
