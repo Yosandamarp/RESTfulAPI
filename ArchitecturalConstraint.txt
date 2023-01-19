@@ -1,0 +1,31 @@
+REST di desain berjalan menggunakan HTTP,dan sering digunakan sebagai Web 
+Services
+Rey Fielding memperkenalkan design principal ketika kita akan membuat RESt
+Berikut adalah beberapa design agar web services benar-benar sesuai dengan
+RESTful API
+- Client-server :	(RESTful API haruslah memisahkan antara kompleksitas data internal
+			dengan yang akan diekpose ke client,karena itu RESTful API 
+			haruslah menggunakan arsitektur Client Server,sehingga Client
+			tidak perlu tahu kompleksitas logic yang terjadi di server)
+- Stateless :		(Artinya tiap interaksi harus tidak tergantung dengan interaksi 
+			sebelumnya atau setelahnya,dan setiap interaksi harus mengirim
+			seluruh informasi yang dibutuhkan,salah satu kegunaan stateless
+			adalah mundah untuk di scaling) 	
+- Cacheable :		(Untuk menghemat komunikasi,RESTful API bisa mengimplementasikan 
+			Cache,mirip seperti Cache di HTTP,di client pada RESTful API juga
+ 			bisa melakukan cache data di local,sehingga tidak perlu selalu 
+			meminta data terbaru dari Server)
+- Uniform interface :	(Salah satu yang membedakan RESTful API dengan teknologi RPC lain
+			adalah,penggunaan antarmuka komunikasi yang seragamm untuk semua
+			pihak (client & server teknologi apapun),karena RESTful API 
+			menggunakan teknologi HTTP yang sudah standard sehingga seragam
+			di semua teknologi atau bahasa pemrograman) 	
+- Layered system :	(Sistem REStful API juga dapat menggunakan Layered System 
+			layered system menjadikan sistem bisa disusun sesuai dengan data nya,
+			dan agar kompleksitas pada RESTful API tidak harus diketahui oleh
+			client.
+- Code on demand : 	(Code on Demand adalah design principal yang tidak wajib di
+			implementasikan ketika kita membuat RESTfu8l API,hal ini bisa 
+			mempermudah dari sisi Client sehingga tidak perlu mengimplementasikan
+			kode terlalu banyak,karena kode bisa dikirim oleh Server.
+			
