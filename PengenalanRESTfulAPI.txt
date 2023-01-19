@@ -1,0 +1,11 @@
+REST singkatan dari REpresentational State Tranfer
+REST dikenalkan tahun 2000 oleh Roy Fielding dalam disertasinya
+RESTful API merupakan salah satu implementasi API yang memanfaatkan 
+sebagai protokol komunikasinya
+Walaaupun SOAP juga berjalan diatas HTTP,RESTful API sangat sederhana 
+dibanding SOAP
+RESTful API sangat mudah dignakan,saat ini RESTful API sudah menjadi 
+standard API yang banyak digunakan ketika membuat sistem yang butuh menyediakan
+API untuk pihak lain.
+Pembuatan RESTful API sangat mudah karena seperti membuat web pada umumnya
+Ringan dan mudah dimengerti oleh manusia.
