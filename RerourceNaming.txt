@@ -1,0 +1,11 @@
+walaupun oembuatan URL, RESTful API sendiri tidak ada standar baku nya,
+namun alangkah baikanya mengikuti best practice yang ada
+Resource dalam RESTful API adalah kata yang sifatnya bisa satu atau banyak
+misal,"customers"adalah kumpulan dari "customer",dimana "customer"adalah
+satu ada customer. 
+Gunakan kata benda, bukan kata kerja
+Gunakan Hirarki
+Gunakan action pada reource
+Gunakan - dan lowercase
+Gunakan CRUD pada HTTP method
+Gunakan Query untuk Filter
