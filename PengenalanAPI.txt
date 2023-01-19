@@ -1,0 +1,17 @@
+API singkatan dari Application Programming Interface
+API adalah perantara yang menghubungkan satu pihak dengan pihak lain agar 
+bisa saling berkomunikasi 
+API berisi kumpulan prosedur,fungsi,cara berkomunikasi atau peralatan 
+untuk komunikasi
+Contoh penggunaan API
+Saat kita ingin berkomunikasi dengan aplikasi Facebook,kita membutuhkan
+API dari Facebook agar aplikasi kita bisa berinteraksi dengan aplikasi 
+Facebook.
+Contoh implementasi API
+Driver Perangkat Keras,sebagai API untuk sistem operasi 
+SOAP(Simple Object Access Protocol)
+COBRA(Common Object Request Broker Architecture)
+RESTful API
+Apache Thrift
+Protocol Buffer 
+GRPC Dan lain-lain.
