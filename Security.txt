@@ -1,0 +1,15 @@
+Ada kalanya kita butuh mengamankan REStful API yang kita buat
+salah satunya adalah dengan menggunakan Autentication dan Authorization
+Autentication adalah memvalidasi kredensial untuk memverifikasi pemilik 
+identitas contoh prosesnya yaitu saat proses login menggunakan username 
+dan password.
+Authorization adalah proses yang dilakukan steleah proses Autentication
+contoh proses nya adalah Access-Control LIst.
+Contoh Authentication & Authorization
+Basic Auth
+API-Key
+Oauth 2 dan lain lain
+
+
+
+

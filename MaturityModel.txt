@@ -1,0 +1,15 @@
+Leonard Richardson telah melakukan analisa banyak sekali Web Service
+dan akhirnya menyimpulkan dalam 4 kategori,seberapa sempurna REStful API
+-Level Zero
+Pada level zero,biasanya Web Service dibuat hanya menggunakan satu URL dan 
+satu HTTP Method contoh adalah SOAP dan XML-RPC
+-Level One
+Jika kita sudah menggunakan banyak URL ketika membuat Web Service,namun masih
+selalu menggunakan satu HTTP Method,maka kita berada di Level One
+-Level Two
+Ini adalah level dimana kebanyakan Web Service saat ini 
+Banyak URL,dan tiap URL biasanya mendukung satu atau lebih jenis HTTP Method
+-Level Three
+Level Three atau paling tinggi sebenarnya mirip dengan Level Two,yang 
+membedakan adalah pada Level Three setiap resource akan memberikan detail
+relasi ke resource lainnya,atau singkatnya adalah sudah mengimplementasi HATEOAS

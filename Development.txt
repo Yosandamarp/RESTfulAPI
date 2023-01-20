@@ -1,0 +1,19 @@
+Kesalahan Ketika Membuat RESTful API 
+-Selalu membuat CRUD API untuk table di database
+-Membuat response data sama dengan table di database
+-Mengembalikan data selengkap-lengkapnya di API
+-Membuat API yang tidak dibutuhkan oleh Client
+Maintenance RESTful API 
+Dalam membuat produk,fitur pasti akan selalu ebertambah
+Oleh karena itu,maintenance RESTful API sangatlah penting,agar 
+RESTful API kita tidak menjadi masalah dikemudian hari 
+Maintenance yang boleh dilakukan
+-menambah data baru di API yang sudah ada
+-menambah API baru di endpoint URL berbeda
+-mempercepat proses di API yang sudah ada
+-menggabungkan beberapa API menjadi satu,tanpa menghilangkan API lama
+Maintenance yang tidak boleh dilakukan
+-mengubah total response data di API yang sudah ada
+-merubah field response data di API yang sudah ada
+-menghilangkan API yang sudah ada.
+

@@ -1,0 +1,12 @@
+Stateless sederhananya adalah tidak menyimpan state atau data
+Stateless artinya setiap HTTP Request adalah proses independent,tidak
+bergantung dengan HTTP Request lainnya
+Server tidak boleh tergantung dengan request dari client sebelumnya
+Keuntungan nya
+RESTful API yang stateless akan mudah di scaling secara horizontal
+karena request dari client bisa masuk ke server mana saja,sehingga 
+untuk scaling hanya tinggal menambah server baru
+setiap request client akan sangat lengkap,sehingga mudah untuk di track 
+dan di cek requestnya
+
+

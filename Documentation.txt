@@ -1,0 +1,14 @@
+Dokumentasi RESTful API bisa dibuat menggunakan apapun,dari dokumen sederhana
+menggunakan microsoft word,google doc,samapai menggunakan tool khusus untuk
+dokumentasi API. Sangat disarankan untuk menggunakan tool khusus dokumentasi
+API.
+Contoh API documentation
+Swagger
+Stoplight
+Redoc dan lain lain
+Open API adalah spesifikasi yang banyak diadopsi oleh industri untuk 
+mendeskripsikan API
+Keuntungan menggunakan OpenAPI adalah 
+Standard,sehingga bisa dibuat oleh programmer bahasa pemrograman apapun
+Mudah digunakan oleh client,karena sudah banyak tersedia generator untuk
+melakukan generate kode client dari OpenAPI Specificastion.
